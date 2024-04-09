@@ -4,16 +4,16 @@ import re
 
 # Установка соединения с базой данных PostgreSQL
 conn = psycopg2.connect(
-    host="localhost",
-    port="5433",
+    host="",
+    port="",
     database="DB_proekt",
     user="postgres",
-    password="2005"
+    password=""
 )
 cursor = conn.cursor()
 
 # Инициализация бота
-bot = telebot.TeleBot('6918700653:AAF8-WR7hY8hByp9FkY5NYmFw_p-dhkBf8A')
+bot = telebot.TeleBot('6918700653:AAF8-WR7hY8hBy*******************')
 
 
 @bot.message_handler(commands=['start'])
